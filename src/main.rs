@@ -85,13 +85,13 @@ fn main() {
                 match temperature {
                     Temperature::Fahrenheit(_) => {
                         println!(
-                            "The temperature in Celsius is: {:.2}",
+                            "The temperature in Celsius is: {:.2} °C",
                             temperature.to_celsius()
                         );
                     }
                     Temperature::Celsius(_) => {
                         println!(
-                            "The temperature in Fahrenheit is: {:.2}",
+                            "The temperature in Fahrenheit is: {:.2} °F",
                             temperature.to_fahrenheit()
                         );
                     }
